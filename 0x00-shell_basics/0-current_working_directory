@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod +x script.sh
-pwd
+chmod +x echo-pwd.sh
