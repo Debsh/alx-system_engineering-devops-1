@@ -1,9 +1,6 @@
 #!/usr/bin/env bash
-# displays a list of currently running processes
-# ps - current process
-# -a - Select all processes except both session leaders
-# -u - display user ID
-# -x - date start procces
-# -f - full-format listing
+# Displays a list of currently running processes.
+#   Shows all processes, for all users, including those
+#+  which might not have a TTY.
 
 ps -auxf

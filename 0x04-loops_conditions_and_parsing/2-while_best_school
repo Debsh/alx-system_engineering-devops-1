@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
-# This script is displaying "Best School" 10 times
+# A Bash script that displays Best School 10 times using while loops.
 
-string_a='Best School'
-counter=0
-while [ $counter -lt 10 ]; do echo "$string_a"; (( counter+=1 )); done
+n=0
+
+while [ $n -lt 10 ]
+do
+    echo "Best School"
+    (( ++n ))
+done
