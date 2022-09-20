@@ -1,12 +1,16 @@
-# 0x0B. SSH
+# SSH
+Project done during **Full Stack Software Engineering studies** at **Alx School**. It aims to learn about what is a SSH, how to create an SSH RSA key pair and how to connect to a remote host using SSH.
 
-## Description
-This project is about learning how to connect on a server using ssh.
+## Technologies
+* Scripts written in Bash 4.3.11(1)
+* Tested on Ubuntu 14.04 LTS
+* Puppet 3.8
 
-## Table of contents
-Files | Description
------ | -----------
-[0-use_a_private_key](./0-use_a_private_key) | Bash script that uses ssh to connect to your server using the private key ~/.ssh/holberton with the user ubuntu
-[1-create_ssh_key_pair](./1-create_ssh_key_pair) | Bash script that creates an RSA key pair
-[2-ssh_config](./2-ssh_config) | SSH client configuration
-[4-puppet_ssh_config.pp](./4-puppet_ssh_config.pp) | sets up a client SSH configuration file so that we can connect to a server without using a password
+## Files
+
+| Filename | Description |
+| -------- | ----------- |
+| `0-use_a_private_key` | Uses `ssh` to connect to a server using a private key previously generated |
+| `1-create_ssh_key_pair` | Creates an RSA key pair |
+| `2-ssh_config` | SSH client configuration using a private key and refusing to authenticate using a password |
+| `4-puppet_ssh_config.pp` | Sets up the client SSH configuration file to connect to a server without typing a password |
